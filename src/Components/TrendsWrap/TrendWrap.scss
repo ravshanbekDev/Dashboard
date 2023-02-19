@@ -1,0 +1,23 @@
+.TrendsWrap {
+  background: #ffffff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+  max-width: 1122px;
+  border-radius: 8px;
+
+  &__caption {
+    font-size: 19px;
+    letter-spacing: 0.4px;
+    color: #252733;
+    margin-bottom: 8px;
+    padding-top: 32px;
+    padding-left: 32px;
+  }
+  &__data {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9fa2b4;
+    padding-left: 32px;
+  }
+}

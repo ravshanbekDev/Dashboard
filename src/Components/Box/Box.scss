@@ -1,0 +1,27 @@
+.box {
+  text-align: center;
+  padding: 24px 32px;
+  &:hover {
+    cursor: pointer;
+    border: 1px solid #3751ff;
+    text-align: center;
+  }
+  &__info {
+    font-family: "Muli";
+    font-size: 19px;
+    letter-spacing: 0.4px;
+    color: #9fa2b4;
+    &:hover {
+      color: #3751ff;
+    }
+  }
+  &__caption {
+    font-family: "Muli";
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #252733;
+    &:hover {
+      color: #3751ff;
+    }
+  }
+}
